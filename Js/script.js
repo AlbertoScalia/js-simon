@@ -35,3 +35,11 @@ function clickPlay() {
 
     console.log(numeriRandom)
 }
+
+// Creo la funzione per far sparire la lista dopo 30 sec
+
+function hideNumbers() {
+    listaNumeri.innerHTML = " ";
+}
+
+setTimeout(hideNumbers, 30000);
